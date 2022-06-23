@@ -37,22 +37,27 @@
             <label for="mensagem">Mensagem</label>
             <textarea class="input-padrao" name="" id="mensagem" cols="30" rows="10"></textarea>
 
-            <div>
+            <fieldset>
 
-                <p>Como prefere o nosso contato?</p>
+                <legend>Como prefere o nosso contato?</legend>
                 <label for="radio-email"><input id="radio-email" name="contato" type="radio">Email</label>
                 
                 <label for="radio-telefone"><input id="radio-telefone" name="contato" type="radio">Telefone</label>
                 
                 <label for="radio-whatsapp"><input id="radio-whatsapp" name="contato" type="radio" checked>Whatsapp</label>
 
-            </div>
+            </fieldset>
 
-            <select>
-                <option>Manhã</option>
-                <option>Tarde</option>
-                <option>Noite</option>
-            </select>
+            <fieldset>
+
+                <legend>Qual horário gostaria de ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option> 
+                    <option>Noite</option>
+                </select>
+
+            </fieldset>
 
             <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
