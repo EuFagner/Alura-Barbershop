@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    margin: auto;
+    max-width: 940px;
+}
+
+.caixa ul {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.caixa li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.caixa a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.caixa a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.rodape {
+    background: url("../imagens-index/bg.jpg");
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.1em;
+}
+
+main {
+    margin: auto;
+    max-width: 940px;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0px;
+}

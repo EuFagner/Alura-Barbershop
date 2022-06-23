@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    margin: auto;
+    width: 940px;
+}
+
+.caixa ul {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.caixa li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.caixa a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.caixa a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos {  
+    margin: auto;
+    width: 940px;
+    padding: 65px 0px;
+}
+
+.produtos li {
+    border: 3px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 15px;
+    margin: 0 1.5%;
+    padding: 40px 17px;
+    width: 30%;
+}
+
+.produtos li:hover {
+    border-color: #c78c19;
+}
+
+.produtos li:active {
+    border-color: #95ffc3;
+}
+
+.produtos li:hover h2 {
+    font-size: 2.2em;
+}
+
+.produtos h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.produto-descricao {
+    font-size: 1.1em;
+}
+
+.produto-preco {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-top: 5px;
+}         
+
+.rodape {
+    background: url("../imagens-index/bg.jpg");
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.1em;
+}
+
+main {
+    margin: auto;
+    width: 940px;
+}
+
+form {
+    margin: 40px 0px;
+}
