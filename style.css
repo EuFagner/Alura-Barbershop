@@ -69,5 +69,22 @@ form label, form p {
 }
 
 .checkbox {
-    margin: 10px 0px;
+    margin: 20px 0px;
+}
+
+.enviar {
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 0px;
+    width: 40%;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.07);
+    transition-duration: .5s;
 }
