@@ -88,3 +88,18 @@ form label, form p {
     transform: scale(1.07);
     transition-duration: .5s;
 }
+
+table {
+    margin: 20px 0px 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}

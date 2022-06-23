@@ -88,3 +88,18 @@ form label, form legend {
     transform: scale(1.1);
     transition-duration: .6s;
 }
+
+table {
+    margin: 20px 0px 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: .5px solid black;
+    padding: 8px 15px; 
+}
