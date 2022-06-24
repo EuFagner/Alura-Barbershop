@@ -14,7 +14,7 @@ header {
 .caixa {
     position: relative;
     margin: auto;
-    max-width: 940px;
+    width: 940px;
 }
 
 .caixa ul {
@@ -89,7 +89,7 @@ header {
 
 .rodape {
     background: url("../imagens-index/bg.jpg");
-    text-align: center;
+    text-align: center; 
     padding: 25px 0px;
 }
 
@@ -146,7 +146,7 @@ form {
 
 .mapa-conteudo {
     margin: auto;
-    width: 940px;
+    max-width: 940px;
 }
 
 .mapa p {
@@ -183,10 +183,35 @@ form {
 }
 
 .imagem-beneficios {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.734);
+    opacity: 0.9;
     width: 60%;
+}
+
+.imagem-beneficios:hover {
+    transition: .3s;
+    opacity: 1;
 }
 
 .video {
     margin: 2em auto;
     width: 560px;
+}
+
+@media screen and (max-width: 400px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .caixa ul {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
