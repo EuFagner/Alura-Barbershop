@@ -8,7 +8,7 @@ header {
 .caixa {
     position: relative;
     margin: auto;
-    width: 940px;
+    max-width: 940px;
 }
 
 .caixa ul {
@@ -99,4 +99,38 @@ main {
 
 form {
     margin: 40px 0px;
+}
+
+/* CSS da página inicial */
+.banner {
+    width: 100%;
+} 
+
+.titulo-principal {
+    clear: left;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    width: 120px;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
